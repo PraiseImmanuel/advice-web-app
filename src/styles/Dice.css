@@ -1,0 +1,36 @@
+.dice-container{
+    background-color: var(--neon-green);
+    cursor: pointer;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -khtml-border-radius: 50%;  
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.6rem;
+    position: absolute;
+    bottom: -1.8rem;
+    right: 50%;
+    transform: translateX(50%);
+    width: 3.6rem;
+}
+
+.box-shadow{
+    box-shadow: 0 0 3rem var(--neon-green);
+    transition: box-shadow 0.6s ease;
+}
+
+.dice{
+    animation: shake-and-spin 0.9s cubic-bezier(1, 1.02, 0.37, 1.07) infinite;
+}
+
+@keyframes shake-and-spin {
+    0% { transform: rotate(0deg); }
+    16.6666% { transform: rotate(40deg); }
+    33.3333% { transform: rotate(0deg); }
+    50% { transform: rotate(-40deg); }
+    66.6666% { transform: rotate(0deg); }
+    83.3333% { transform: rotate(360deg); }
+    100% {transform: rotate(0deg);}
+}

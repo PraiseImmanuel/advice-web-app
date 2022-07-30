@@ -1,0 +1,25 @@
+.advice-content{
+    color: var(--light-cyan);
+    font-size: var(--fs-large);
+    font-weight: var(--fw-extra-bold);
+}
+
+.advice-num{
+    color: var(--neon-green);
+    font-size: var(--fs-medium);
+    font-weight: var(--fw-bold);
+    letter-spacing: 0.2rem;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+
+.span{
+    display: block;
+    margin-top: 0.5rem;
+}
+
+@media screen and (max-width:28rem) {
+    .advice-content{
+        font-size: var(--fs-mobile);
+    }
+}

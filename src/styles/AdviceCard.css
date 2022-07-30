@@ -1,0 +1,32 @@
+.advice-card{
+    background-color: var(--dark-grayish-blue);
+    -moz-border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -khtml-border-radius: 1rem;    
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    position: relative;
+    text-align: center;
+    width: 34rem;
+}
+
+@media screen and (max-width:37.5rem) {
+    .advice-card{
+        padding: 1.625rem;
+        width: 25rem;
+    }
+}
+
+@media screen and (max-width:28rem) {
+    .advice-card{
+        width: 20rem;
+    }
+}
+
+@media screen and (max-width:21.5rem) {
+    .advice-card{
+        width: 18.5rem;
+    }
+}

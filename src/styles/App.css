@@ -1,0 +1,72 @@
+/* ======================
+    ||css variables||
+==================== */
+:root{
+    /* Primary color */
+    --light-cyan: hsl(193, 38%, 86%);
+    --neon-green: hsl(150, 100%, 66%);
+    --neon-green-transperent: hsla(150, 100%, 66%, 0.521);
+    /* Neutral color */
+    --grayish-blue:  hsl(217, 19%, 38%);
+    --dark-grayish-blue:  hsl(217, 19%, 24%);
+    --dark-blue: hsl(218, 23%, 16%);
+    --dark-blue-transperent: hsla(218, 23%, 16%, 0.562);
+
+    /* Font size */
+    --fs-large: 1.65rem;
+    --fs-medium: 0.9rem;
+    --fs-small: 0.875rem;
+    --fs-mobile: 1.45rem;
+    /* Font Weight */
+    --fw-extra-bold: 800;
+    --fw-bold: 700;
+    --fw-medium: 500;
+    /* Font Family */
+    --ff-body: "Manrope", Helvetica;
+
+}
+
+
+/* ======================
+    ||General||
+==================== */
+
+*{
+    box-sizing: border-box;    
+    padding: 0;
+    margin: 0;
+}
+
+::selection{
+    color: var(--neon-green);
+}
+
+a{
+    text-decoration: none;
+}
+
+.entire-container{
+    background-color: var(--dark-blue);
+    font-family: var(--ff-body);
+    font-size: var(--fs-small);
+    font-weight: var(--fw-body);
+    letter-spacing: 0.015rem;
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow: hidden;
+    position: relative;
+}
+
+.round{
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -khtml-border-radius: 50%;  
+    border-radius: 50%;
+}
+
+.centered{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+}
