@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/PraiseImmanuel/advice-web-app)
+- Live Site URL: (https://advice-website.netlify.app/)
 
 ## My process
 
@@ -109,4 +109,4 @@ This Project boosted me up to dive more into building web applications with Reac
 
 - Website - [Praise Immanuel](https://www.behance.net/praise_immanuel2)
 - Frontend Mentor - [PraiseImmanuel](https://www.frontendmentor.io/profile/PraiseImmanuel)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Twitter - [_PraiseImmanuel](https://www.twitter.com/_PraiseImmanuel)
