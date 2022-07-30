@@ -1,6 +1,7 @@
 import "../styles/App.css"
 import "../styles/AdviceCard.css"
 import "../styles/Attribution.css";
+import "../styles/Dice.css";
 import React from "react";
 import Attribution from "./Attribution";
 import CursorFollower from "./CursorFollower";
