@@ -1,4 +1,5 @@
 import "../styles/App.css"
+import "../styles/AdviceCard.css"
 import "../styles/Attribution.css";
 import React from "react";
 import Attribution from "./Attribution";
