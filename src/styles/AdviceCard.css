@@ -1,4 +1,3 @@
-@media screen and (max-width:67.5rem){
 .advice-card{
     background-color: var(--dark-grayish-blue);
     -moz-border-radius: 1rem;
@@ -12,7 +11,7 @@
     text-align: center;
     width: 34rem;
 }
-}
+
 
 @media screen and (max-width:37.5rem) {
     .advice-card{
