@@ -1,5 +1,6 @@
 import "../styles/AdviceCard.css"
 import "../styles/Dice.css";
+import "../styles/AdviceContent.css";
 import React from "react";
 import Divider from "./Divider";
 import Dice from "./Dice";
