@@ -12,7 +12,7 @@
     width: 34rem;
 }
 
-/* @media screen and (max-width:37.5rem) {
+@media screen and (max-width:37.5rem) {
     .advice-card{
         padding: 1.625rem;
         width: 25rem;
@@ -30,4 +30,4 @@
         width: 18.5rem;
     }
 }
- */
+
