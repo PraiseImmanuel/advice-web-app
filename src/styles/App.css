@@ -68,6 +68,11 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 90vh;
 }
 
+@media screen and (max-width:28rem) {
+    .centered{
+        min-height: 80vh;
+    }
+}
