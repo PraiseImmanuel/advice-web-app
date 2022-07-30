@@ -65,4 +65,7 @@
     .attribution-container, .attribution-content{
         width: 18.5rem;
     }
+    .attribution-content{
+        padding-left: 2.8rem;
+    }
 }    
